@@ -208,7 +208,7 @@ Retail có cơ cấu doanh thu tập trung chủ yếu vào các nhóm điều t
 
 Về sản phẩm, các vaccine đều nằm trong nhóm dẫn đầu doanh thu, cho thấy thị trường Retail được dẫn dắt bởi cả thuốc kê đơn, vaccine và các sản phẩm chăm sóc sức khỏe. Tuy nhiên, doanh thu được phân bổ trên nhiều sản phẩm, không có một thương hiệu nào chiếm tỷ trọng quá lớn, phản ánh mức độ cạnh tranh cao của thị trường. 
 
--> Có thể mở rộng doanh thu bằng cách tập trung vào các nhóm điều trị như là Kháng sinh, Đau - viêm, Dạ dày, Gan, Ho, Dị ứng, Da liễu hoặc nhóm sản phẩm như là thuốc kê đơn, vaccine và các sản phẩm chăm sóc sức khỏe.
+**-> Có thể mở rộng doanh thu bằng cách tập trung vào các nhóm điều trị như là Kháng sinh, Đau - viêm, Dạ dày, Gan, Ho, Dị ứng, Da liễu hoặc nhóm sản phẩm như là thuốc kê đơn, vaccine và các sản phẩm chăm sóc sức khỏe.**
 
 ---
 
