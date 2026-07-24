@@ -195,11 +195,20 @@ Có thể liên quan đến:
 
 ---
 
-## 5. Retail chiếm ưu thế ở nhiều nhóm điều trị
+## 4. Retail chiếm ưu thế ở nhiều nhóm điều trị
 
-Ở hầu hết trong các nhóm ATC4, doanh số Retail đều cao hơn Hospital.
+Ở hầu hết trong các nhóm ATC4 và Product, doanh số Retail đều cao hơn Hospital.
 
 Điều này phản ánh vai trò quan trọng của hệ thống nhà thuốc trong việc phân phối thuốc.
+
+---
+## 5. Chi tiết về ATC4 và Product
+
+Retail có cơ cấu doanh thu tập trung chủ yếu vào các nhóm điều trị phổ biến như kháng sinh đường uống (Cephalosporins, Penicillins), thuốc giảm đau, thuốc tiêu hóa và các nhóm điều trị bệnh mạn tính. Điều này phản ánh nhu cầu chăm sóc sức khỏe hàng ngày và điều trị ngoại trú vẫn là động lực chính của thị trường bán lẻ.
+
+Về sản phẩm, các vaccine đều nằm trong nhóm dẫn đầu doanh thu, cho thấy thị trường Retail được dẫn dắt bởi cả thuốc kê đơn, vaccine và các sản phẩm chăm sóc sức khỏe. Tuy nhiên, doanh thu được phân bổ trên nhiều sản phẩm, không có một thương hiệu nào chiếm tỷ trọng quá lớn, phản ánh mức độ cạnh tranh cao của thị trường. 
+
+-> Có thể mở rộng doanh thu bằng cách tập trung vào các nhóm điều trị như là Kháng sinh, Đau - viêm, Dạ dày, Gan, Ho, Dị ứng, Da liễu hoặc nhóm sản phẩm như là thuốc kê đơn, vaccine và các sản phẩm chăm sóc sức khỏe.
 
 ---
 
