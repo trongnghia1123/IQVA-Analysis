@@ -86,7 +86,7 @@ Trong quá trình phân tích phát hiện:
 Hospital + Retail ≠ Total Market
 ```
 
-đối với nhiều bản ghi.
+đối với nhiều dòng dữ liệu.
 
 Do đó **không thể mặc định Total Market bằng tổng Hospital và Retail**.
 
@@ -124,46 +124,6 @@ Việc chuyển đổi này giúp:
 
 ---
 
-# ⭐ Mô hình dữ liệu
-
-Sau khi chuyển đổi dữ liệu, mô hình được thiết kế theo hướng **Star Schema**.
-
-```
-               Dim Product
-                    │
-                    │
-Dim Year ───── Fact Sales ───── Dim Channel
-```
-
-### Fact Sales
-
-- Product
-- Channel
-- Year
-- Sales
-
-### Dim Product
-
-- Product
-- ATC4
-- Molecule
-- Strength
-- Pack Form
-
-### Dim Channel
-
-- Hospital
-- Retail
-
-### Dim Year
-
-- 2019
-- 2020
-- 2021
-- 2022
-
----
-
 # 📊 Dashboard
 
 Dashboard được xây dựng trên Power BI với các thành phần chính:
@@ -175,6 +135,19 @@ Dashboard được xây dựng trên Power BI với các thành phần chính:
 - Top 5 nhóm điều trị (ATC4)
 - Top 5 sản phẩm theo doanh số
 - Dashboard tương tác với bộ lọc
+
+---
+
+# Các nội dung phân tích
+
+Sau khi xử lý dữ liệu việc phân tích được tập trung vào 5 trường chính:
+ - Sales
+ - Chanel (Retail, Hospital)
+ - Year
+ - ACT4
+ - Product
+
+Ngoài ra dùng Dax để tạo các measure tính toán cho các chỉ số như YoY Growth, CAGR,...
 
 ---
 
@@ -217,25 +190,14 @@ Doanh số Hospital có xu hướng giảm trong giai đoạn 2019–2021 trư�
 Có thể liên quan đến:
 
 - Ảnh hưởng của COVID-19
-- Thay đổi trong hoạt động đấu thầu
+- Thay đổi trong hoạt động khám sức khoẻ của bệnh nhân
 - Sự phục hồi của hệ thống bệnh viện
-
----
-
-## 4. Thị trường có xu hướng tập trung
-
-Một số ít sản phẩm đóng góp tỷ trọng doanh số rất lớn so với phần còn lại của thị trường.
-
-Điều này cho thấy:
-
-- Thị trường có mức độ tập trung cao.
-- Một số thương hiệu đang giữ vai trò dẫn đầu.
 
 ---
 
 ## 5. Retail chiếm ưu thế ở nhiều nhóm điều trị
 
-Ở hầu hết các nhóm ATC4 có doanh số lớn, doanh số Retail đều cao hơn Hospital.
+Ở hầu hết trong các nhóm ATC4, doanh số Retail đều cao hơn Hospital.
 
 Điều này phản ánh vai trò quan trọng của hệ thống nhà thuốc trong việc phân phối thuốc.
 
@@ -243,7 +205,7 @@ Một số ít sản phẩm đóng góp tỷ trọng doanh số rất lớn so v
 
 # 🔍 Phát hiện về chất lượng dữ liệu
 
-Trong quá trình phân tích phát hiện một số vấn đề cần lưu ý:
+Trong quá trình phân tích phát hiện một số vấn đề của dữ liệu hiện đang bị trống và lỗi tính toán:
 
 ## 1. Giá trị "(Blank)"
 
@@ -254,7 +216,7 @@ Dashboard xuất hiện các giá trị:
 
 Các bản ghi này vẫn có doanh số khá lớn.
 
-Cần được kiểm tra và làm sạch trước khi sử dụng cho báo cáo chính thức.
+Sau khi kiểm tra và làm sạch người làm dữ liệu quyết định giữ dữ liệu trống để có kết quả tốt nhất và tính trung thực nhất
 
 ---
 
@@ -273,41 +235,13 @@ Do đó:
 
 ---
 
-# 💡 Đề xuất cải thiện Dashboard
-
-Một số chỉ số có thể bổ sung:
-
-- YoY Growth (%)
-- CAGR
-- Market Share
-- Contribution %
-- Pareto Analysis
-
----
-
-## Biểu đồ nên bổ sung
-
-- Waterfall Chart
-- Pareto Chart
-- Scatter Plot (Market Size vs Growth)
-- Heatmap
-- BCG Matrix
-
----
-
 ## Cải thiện Dashboard
 
-- Thêm bộ lọc theo:
-  - Năm
-  - Nhóm điều trị (ATC4)
-  - Sản phẩm
-  - Dạng bào chế
+- Thêm bộ lọc theo dạng bào chế
 
-- Chuẩn hóa định dạng KPI (K/M/B/T).
+- Chuẩn hóa định dạng KPI.
 
 - Loại bỏ các giá trị "(Blank)" sau khi làm sạch dữ liệu.
-
-- Thêm Tooltip động để tăng khả năng phân tích.
 
 ---
 
@@ -334,25 +268,3 @@ Một số chỉ số có thể bổ sung:
 - Marketing Analytics
 - Pharmaceutical Market Analysis
 
----
-
-# 🚀 Hướng phát triển
-
-Trong các phiên bản tiếp theo có thể bổ sung:
-
-- Phân tích Market Share theo từng công ty.
-- Phân tích tốc độ tăng trưởng của từng sản phẩm.
-- Dự báo doanh số (Forecasting).
-- Phân tích theo từng nhóm hoạt chất.
-- Dashboard Drill-through.
-- Tự động cập nhật dữ liệu Power BI.
-
----
-
-# 👨‍💻 Tác giả
-
-**Portfolio Project - Data Analyst**
-
-Phân tích dữ liệu thị trường dược phẩm IQVIA (2019–2022)
-
-**Power BI | Excel | Power Query | DAX | Data Modeling**
