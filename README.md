@@ -34,12 +34,12 @@ Bộ dữ liệu chứa thông tin doanh số thị trường dược phẩm t�
 Mỗi dòng dữ liệu đại diện cho **một sản phẩm (SKU)** cùng doanh số bán theo từng kênh và từng năm.
 
 Mô tả chi tiết:
- - Dữ liệu gốc có 62098 dòng
- - Dữ liệu sau khi Pivot 8 cột retail thành 496779 dòng
- - ATC4: 514 nhóm
- - Product: 52776 sản phẩm
- - Year: 4 năm 2019-2022
- - Chanel: 2 kênh Retail và Hospital
+ - Dữ liệu gốc có **62098** dòng
+ - Dữ liệu sau khi Pivot 8 cột retail thành **496779** dòng
+ - ATC4: **514** nhóm
+ - Product: **52776** sản phẩm
+ - Year: **4 năm 2019-2022**
+ - Chanel: **2 kênh Retail và Hospital**
 
 ## Ý nghĩa các trường dữ liệu
 
